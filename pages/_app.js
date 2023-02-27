@@ -13,6 +13,7 @@ export default function App({ Component, pageProps }) {
   <meta property="og:image"
   content="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
   />
+  <meta property="og:url" content="https://stalak.com"></meta>
   <meta name="og:title" content="Stalak" />
   <meta name="twitter:card" content="summary_large_image" />
 </Head>
