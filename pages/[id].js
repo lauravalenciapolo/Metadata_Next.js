@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import axios from 'axios'
+import PostCard from '@/components/post'
 
 
 export async function getServerSideProps(context) {
@@ -19,7 +20,6 @@ export async function getServerSideProps(context) {
 }
 
 export default function Post(props) {
-  console.log(props.data, "holaa");
 
   return (
     <>
@@ -35,9 +35,7 @@ export default function Post(props) {
         <meta name="og:title" content="Stalak" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <h1>Post id: {props.data.data.id}</h1>
-      <h3>Usuario: {props.data.data.user.name}</h3>
-      <Image src={props.data.data.image_url} alt={props.data.data.habit_name} width={500} height={500} />
+      <PostCard props={props.data}/>
     </>
   )
 }
