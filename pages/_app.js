@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/stalak_logo.png" />
   <meta property="og:image"
-  content="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+  content="/stalak_logo.png"
   />
   <meta property="og:url" content="https://stalak.com"></meta>
   <meta name="og:title" content="Stalak" />
