@@ -2,7 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   images:{
-    domains:["https://stalak-images.s3.amazonaws.com"]
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'stalak-images.s3.amazonaws.com',
+      },
+    ],
   },
 }
 
