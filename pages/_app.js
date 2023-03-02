@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
   <Component {...pageProps} />
   <Head>
   <title>Stalak</title>
-  <meta name="description" content="App de Habitos" />
+  {/* <meta name="description" content="App de Habitos" /> */}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/stalak_logo.png" />
   <meta property="og:image"
