@@ -28,6 +28,7 @@ export default function Post(props) {
         <meta name="description" content={props.data.data.habit_name} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:url" content="https://stalak.com"></meta>
+        <link rel="icon" href="/stalak_logo.png" />
         <meta property="og:image"
         content={props.data.data.image_url}
         />

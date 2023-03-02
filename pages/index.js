@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <>
-      <Image src="/stalak.png" alt="Stalak" width={500} height={500} />
+      <Image src="/stalak.png" alt="Stalak" width={500} height={230} />
     </>
   )
 }
