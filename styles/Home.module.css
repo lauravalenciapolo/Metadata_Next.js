@@ -1,49 +1,6 @@
-.navbar{
-    width: 1280px;
-    height:158px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    background: #F8F9FF;
-}
-.myImage{
-    position: absolute;
-    left: 6.25%;
-    right: 86.91%;
-    top: 34.81%;
-    bottom: 10.79%;
-}
-
-.navbar p{
-    position: absolute;
-    left: 14.33%;
-    right: 76.25%;
-    top: 62.16%;
-    bottom: 37.84%;
-    font-family: 'Varela';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 0px;
-    /* identical to box height, or 0% */
-    display: flex;
-    align-items: center;
-    color: #12336E;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-}
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 120px 65px;
-    gap: 110px;
-
-    position: absolute;
-    width: 1280px;
-    height: 669px;
-    left: 0px;
-    top: 121px;
-
-    background: #F8F9FF;
-    border-radius: 0px;
+.content{
+    top: 0;
+    left: 0;
+    /* max-height: 400px;
+    overflow-y: auto; */
 }
