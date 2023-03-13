@@ -7,17 +7,15 @@ export default function App({ Component, pageProps }) {
   <Component {...pageProps} />
   <Head>
   <title>Stalak</title>
-  {/* <meta name="description" content="App de Habitos" /> */}
+  <meta name="description" content="Soy una red social que te acompaña a todos lados, te ayudo a establecer metas que se conviertan en hábitos para organizar tu vida."/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="/stalak_logo.png" />
+  <link rel="icon" href="/Group_5.png" />
   <meta property="og:image"
   content="/stalak_logo.png"
   />
-  <meta property="og:url" content="https://stalak.com"></meta>
   <meta name="og:title" content="Stalak" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:url" content="https://stalak.com"></meta>
 </Head>
   </>
-  )
-  //Puedo pasarle aquí mis head para que cualquier ruta que se comparta tenga esta info 
+  ) 
 }

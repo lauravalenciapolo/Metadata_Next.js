@@ -1,7 +1,9 @@
 import styles from '@/styles/Home.module.css'
-import Image from 'next/image';
 import NavBar from '@/components/navbar/navbar';
 import Header from '@/components/header/header';
+import Feature from '@/components/features/features';
+import Metrics from '@/components/metrics/metrics';
+import CallToAction from '@/components/callToAction/callToAction';
 
 
 export default function Home() {
@@ -10,9 +12,9 @@ export default function Home() {
     <div className={styles.content}>
       <NavBar/>
       <Header/>
-      <div> 
-        <h1>¿Qué puedo hacer por ti?</h1>
-      </div>
+      <Feature/>
+      <Metrics/>
+      <CallToAction/>
     </div>
   )
 }
