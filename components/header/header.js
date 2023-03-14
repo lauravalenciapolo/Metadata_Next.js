@@ -10,8 +10,10 @@ export default function Header() {
           <p>Soy una red social que te acompaña a todos lados, te ayudo a establecer metas que se conviertan en hábitos para organizar tu vida.</p>
           <div className={styles.containerButtons}>
             <button>Descargar Stalak</button>
+            <div className={styles.containerButtonsImage}>
             <Image src="/android_1.png" alt="Stalak android" width={198.95} height={60} className={styles.app} />
             <Image src="/index_1.png" alt="Stalak ios" width={182.59} height={61.55} className={styles.app}/>
+            </div>
           </div>       
         </div>
           <Image src="/Rectangle1.png" alt="Stalak phone" 

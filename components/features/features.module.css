@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 .featureContent{
-    position: absolute;
+    /* 53vw --> 597 */
     width: 100%;
-    height: 961px;
-    left: 0px;
-    top: 753px;
+    /* height: 961px; */
+    height: 85.31vw;
     background: #F8F9FF;
+    border: 1px solid gold;
 }
 .featureContent h1{
     font-family: 'Poppins';
@@ -24,25 +24,26 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 94px;
-    margin-top: 119px;
+    margin-left: 7.34vw;
+    margin-top: 10.56vw;
 }
 .cardContent{
     box-sizing: border-box;
-    width: 320px;
-    height: 320px;
+    width: 25vw;
+    /* height: 320px; */
+    height: 24vw;
     background: #FFFFFF;
     border: 1px solid #1239FA;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
-    margin-right: 63px;
+    margin-right: 4.9vw;
 }
 .content2{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 75px;
-    margin-top: 32px;
+    margin-left: 5.86vw;
+    margin-top: 2.4vw;
 }
 .cardContent2{
     box-sizing: border-box;
@@ -50,10 +51,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 30px;
-    gap: 30px;
-    width: 357px;
-    height: 296px;
+    padding: 3vw 2.34vw;
+    gap: 2.34vw;
+    width: 27.89vw;
+    height: 22.2vw;
     background: #FFFFFF;
     border: 1px solid #1D2FFA;
     box-shadow: 34.8541px 29.626px 48.34px rgba(18, 57, 250, 0.05);
@@ -62,13 +63,13 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    margin-right: 30px;
+    margin-right: 2.34vw;
 }
 .cardContent2 p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 2.19vw;
     line-height: 130%;
     text-align: center;
     letter-spacing: -0.01em;
@@ -76,4 +77,53 @@
     flex: none;
     align-self: stretch;
     flex-grow: 0;
+    margin: auto;
+    margin-top: 0.375vw;
+}
+@media (max-width: 530px) {
+    .featureContent{
+        height: auto;
+    }
+    .featureContent h1{
+        margin-top: 60px;
+    }
+}
+@media (max-width: 450px) {
+    .featureContent{
+        height: auto;
+    }
+    .featureContent h1{
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 12.06vw;
+    }
+    .content{ 
+        /* No mostrarlo  */
+        display:none
+    }
+    .cardContent{
+        /* No mostrarlo  */
+        display:none
+    }
+    .content2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid red;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .cardContent2{
+        padding: 3.55vw 8vw;
+        gap: 0;
+        width: 84vw;
+        height: auto;
+        margin: 6.2vw;
+    }
+    .cardContent2 p{
+        font-size: 7.47vw; 
+        margin: 0;
+        margin-top: 0;
+    }
 }

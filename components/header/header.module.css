@@ -6,25 +6,23 @@
     flex-direction: row;
     align-items: center;
     padding: 0px 0px;
-    /* gap: 110px; */
     gap: 8.59vw;
     width: 100%;
-    height: 594px;
+    height: 53vw;
+    /* 597 */
     left: 0px;
-    top: 158px;
     background: #F8F9FF;
     border-radius: 0px;
     border: 1px solid red;
 }
 .subheader{
     width: 51.32vw;
-    /* margin-left: 65px; */
     margin-left: 5.1vw;
 }
 .title{
     /* 657 */
     width: 51.32vw;
-    height: 261px;
+    height: 20vw;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -38,14 +36,16 @@
     align-self: stretch;
     flex-grow: 0;
     margin-left: 0px;
+    border: 1px solid green;
 }
 .header p{
     width: 51.32vw;
-    height: 102px;
+    /* height: 102px; */
+    height: 9vw;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 2.19vw;
     line-height: 120%;
     color: #2D2D2D;
     flex: none;
@@ -53,20 +53,21 @@
     align-self: stretch;
     flex-grow: 0;
     margin-left: 0px;
+    border: 1px solid green;
 }
 .header button{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px 50px;
-    height: 60px;
+    padding: 2vw 3.9vw;
+    height: 4.5vw;
     background: #1239FA;
     border-radius: 20px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.25vw;
     line-height: 24px;
     text-align: center;
     font-feature-settings: 'liga' off;
@@ -75,7 +76,7 @@
     order: 1;
     flex-grow: 0;
     border: none;
-    margin-right: 8px;
+    margin-right: 0.625vw;
 }
 .containerButtons{
     display: flex;
@@ -83,87 +84,99 @@
     justify-content: space-between;
     margin-left: 0px;
 }
+.containerButtonsImage{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 0px;
+}
 .app{
     border-radius: 20px;
-    margin-right: 8px;
+    margin-right: 0.625vw;
 }
 .phone{
-    top: 22.5px;
     filter: drop-shadow(11px 15px 45px rgba(0, 0, 0, 0.2));
     border: 1px solid green;
 }
 
-@media (max-width: 1200px) {
-    .header{
-        gap: 5%;
-        border: 1px solid red;
-    }
-}
 @media (max-width: 1112px) {
-    .header{
-        gap: 5%;
-        border: 1px solid red;
-    }
-    .subheader{
-        /* margin-left: 60px; */
-    }
-    .title{
-        /* width: 557px; */
-    }
-    .header p{
-        /* width: 557px; */
-    }
     .header button{
-        padding: 8px 25px;
-        height: 60px;
+        border-radius: 10px;
+    }
+    .containerButtonsImage{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:flex-start;
+        margin-left: 0px;
+        /* Ajustar los botones porque se salen */
     }
     .app{
-        border-radius: 20px;
-        margin-right: 8px;
-        /* Hacer responsive de esta imagen */
+        border-radius: 10px;
+        width:14.23vw;
+        height:4.5vw;
     }
     .phone{
-        top: 22.5px;
-        filter: drop-shadow(11px 15px 45px rgba(0, 0, 0, 0.2));
-        border: 1px solid green;
-        /* Hacer responsive de esta imagen */
+        width: 26.02vw;
+        height: 45.06vw;
     }
 }
-@media (max-width: 1035px) {
-    .header{
-        gap: 8%;
-        border: 1px solid red;
-    }
-    .subheader{
-        /* margin-left: 60px; */
-    }
-    .title{
-        /* width: 357px;
-        font-size: 49px; */
-        /* height: auto; */
-    }
-    .header p{
-        /* width: 357px;
-        font-size: 17px; */
-    }
-    .header button{
-        /* Hacer responsive de esta imagen */
-        padding: 8px 25px;
-        height: 60px;
-    }
-    .app{
-        border-radius: 20px;
-        margin-right: 8px;
-        /* Hacer responsive de esta imagen */
-    }
-    .phone{
-        top: 22.5px;
-        filter: drop-shadow(11px 15px 45px rgba(0, 0, 0, 0.2));
-        border: 1px solid green;
-        /* Hacer responsive de esta imagen */
-    }
-}
-@media (max-width: 843px) {
-}
+
 @media (max-width: 450px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 250vw;
+    }
+    .subheader{
+        width: 95vw;
+        align-items: center;
+        border: 1px solid black;
+        margin: auto;
+    }
+    .title{
+        width: 84vw;
+        font-size: 10vw;
+        margin: 4vw auto;
+        height: 40vw;
+        text-align: center;
+    }
+    .header p{
+        width: 84vw;
+        height: 9vw;
+        font-size: 4.27vw;
+        margin: 0 auto 2.58vw;
+        height: 21vw;
+        text-align: center;
+    }
+    .header button{
+        padding: 7vw 13.3vw;
+        height: 4.5vw;
+        font-size: 4.27vw;
+        line-height: 24px;
+        margin: 1.29vw auto 1.28vw;
+        border-radius: 10px;
+    }
+    .containerButtons{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+    .containerButtonsImage{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:center;
+        border: 1px solid fuchsia;
+        padding: 1vw 2vw;
+    }
+    .app{
+        border-radius: 10px;
+        width:31.47vw;
+        height:9.1vw;
+    }
+    .phone{
+        width: 79.15vw;
+        height: 121.87vw;
+    }
 }   

@@ -20,7 +20,7 @@ export default function Feature() {
             <p>Organizo tus actividades en los clubes a los que puedes pertenecer con otras personas</p>
         </div>
         <div className={styles.cardContent2}>
-            <p style={{marginTop:5}}>Muestro las estadísticas de tus metas para que puedas evaluar tu desempeño y medir tus logros</p>
+            <p >Muestro las estadísticas de tus metas para que puedas evaluar tu desempeño y medir tus logros</p>
         </div>
       </div>
     </div>

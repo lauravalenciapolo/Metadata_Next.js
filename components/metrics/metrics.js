@@ -6,7 +6,7 @@ export default function Metrics() {
     return (
         <div>
             <div className={styles.contentTitle}>
-            <h1>Quiero ayudarte a crear hábitos saludables <br/>que te impulsen a alcanzar tus objetivos</h1>
+            <h1>Quiero ayudarte a crear hábitos saludables que te impulsen a alcanzar tus objetivos</h1>
             </div>
             <div className={styles.contentInfo}>
                 <Image src="/visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage} />
@@ -18,7 +18,7 @@ export default function Metrics() {
                 <div className={styles.parrag}>
                 <p>Soy una red social en la que puedes conocer nuevas personas a partir de un gusto común, además puedes unirte a los clubes y practicar tus actividades favoritas</p>
                 </div>
-                <Image src="/visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage} />
+                <Image src="/visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage2} />
             </div>
             <div className={styles.contentInfo} style={{top:"3174px"}}>
                 <Image src="/visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage} />
