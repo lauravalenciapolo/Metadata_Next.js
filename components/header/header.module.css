@@ -100,9 +100,6 @@
 }
 
 @media (max-width: 1112px) {
-    .header button{
-        border-radius: 10px;
-    }
     .containerButtonsImage{
         display: flex;
         flex-direction: row-reverse;
@@ -155,7 +152,6 @@
         font-size: 4.27vw;
         line-height: 24px;
         margin: 1.29vw auto 1.28vw;
-        border-radius: 10px;
     }
     .containerButtons{
         display: flex;

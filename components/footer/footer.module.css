@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap');
+
+
+.conteiner{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 60px;
+    gap: 12px;
+    background-color: #002932;
+}
+.conteinerSocialIcon{
+    max-width: 176px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.conteiner p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    /* Preguntar este tamaño de imagen, estaba en 400 pero no se ve igualito */
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    width: 160px;
+    height: auto;
+}
+
+@media (max-width: 450px) {
+    .conteiner{
+        padding: 24px 20px;
+        gap: 0px;
+        background-color: #002932;
+    }
+    .conteinerSocialIcon{
+        margin-top: 0px;
+    }
+    
+}

@@ -3,12 +3,15 @@ import Image from 'next/image';
 
 export default function CallToAction() {
     return (
-    <div className={styles.conteiner}>
+
+        <div className={styles.conteiner}>
         <div className={styles.blueconteiner}>
-            <p>Empecemos a organizar tus hábitos y convertirlos en propósitos de vida</p>
-            <button>Descargar Stalak</button>
-            <Image src="/Rectangle.png" alt="Stalak phone" width={433.08} height={650} className={styles.phone}/>
+            <div>
+                <p>Empecemos a organizar tus hábitos y convertirlos en propósitos de vida</p>
+                <button>Descargar Stalak</button>
+            </div>
         </div>
-    </div>
+        <Image src="/Rectangle1.png" alt="Stalak phone" width={333.08} height={550} className={styles.phone}/>
+        </div>
     )
 }
