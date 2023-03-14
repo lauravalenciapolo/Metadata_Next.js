@@ -7,7 +7,6 @@
     height: auto;
     left: 0px;
     background: #F8F9FF;
-    border: 1px solid red;
     padding: 4.77vw 15.29vw;
 }
 .contentTitle h1{
@@ -35,11 +34,9 @@
     gap: 1.56vw;
     max-width: 100%;
     height: auto;
-    /* height: 480px; */
     left: 0px;
     background: #F8F9FF;
     border-radius: 0px;
-    border: 1px solid black;
 }
 .myImage{
     padding: 0px 3.2vw;
@@ -110,7 +107,6 @@
         left: 0px;
         background: #F8F9FF;
         border-radius: 0px;
-        border: 1px solid black;
     }
     .myImage{
         padding: 0px 0vw;
@@ -143,7 +139,6 @@
         left: 0px;
         background: #F8F9FF;
         border-radius: 0px;
-        border: 1px solid black;
     }
     .myImage2{
         margin-right: 0vw;

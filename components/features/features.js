@@ -1,4 +1,5 @@
 import styles from '@/components/features/features.module.css'
+import Image from 'next/image'
 
 export default function Feature() {
     return (
@@ -6,10 +7,10 @@ export default function Feature() {
       <h1>¿Qué puedo hacer por ti?</h1>
       <div className={styles.content}>
         <div className={styles.cardContent}>
-            <h1>laura</h1>
+          <Image src="/Frame_1.png" alt="Stalak" width={320} height={320} className={styles.myImage} />
         </div>
         <div className={styles.cardContent}>
-            <h1>hola</h1>
+          <Image src="/Frame_2.png" alt="Stalak" width={320} height={320} className={styles.myImage} />
         </div>
       </div>
       <div className={styles.content2}>
