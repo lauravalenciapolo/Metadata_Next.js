@@ -92,13 +92,6 @@
 }
 
 @media (max-width: 1112px) {
-    .containerButtonsImage{
-        /* display: flex;
-        flex-direction: row-reverse;
-        justify-content:flex-start;
-        margin-left: 0px; */
-        /* Ajustar los botones porque se salen */
-    }
     .app{
         border-radius: 10px;
         width:14.23vw;
