@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../googleFonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../../googleFonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 .contentTitle{
     display: flex;
     flex-direction: column;
