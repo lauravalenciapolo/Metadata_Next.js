@@ -16,9 +16,9 @@ export default function Header() {
             </div>
           </div>       
         </div>
-          <Image src="/Rectangle1.png" alt="Stalak phone" 
-          width={333.08} 
-          height={550} 
+          <Image src="/celularLanding.png" alt="Stalak phone" 
+          width={433.08} 
+          height={650} 
           className={styles.phone}/>
         </div>
     )

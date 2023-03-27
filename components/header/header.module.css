@@ -95,20 +95,19 @@
 .app{
     border-radius: 20px;
     margin-right: 0.625vw;
+    width:14.23vw;
+    height:4.5vw;
 }
 .phone{
-    filter: drop-shadow(11px 15px 45px rgba(0, 0, 0, 0.2));
+    margin-top: 5.1vw;
+    width: 33.82vw;
+    height: 53.25vw;
+    filter: drop-shadow(11px 15px 45px rgba(0, 0, 0, 0.2));   
 }
 
 @media (max-width: 1112px) {
     .app{
         border-radius: 10px;
-        width:14.23vw;
-        height:4.5vw;
-    }
-    .phone{
-        width: 26.02vw;
-        height: 45.06vw;
     }
 }
 
