@@ -82,11 +82,12 @@
 }
 .phone{
     position: absolute;
+    margin-top: 2vw;
     margin-left: 54.84vw;
     align-items: center;
     filter: drop-shadow(11px 15px 45px rgba(0, 0, 0, 0.2));
-    width: 26.02vw;
-    height: 42.97vw;
+    width: 33.82vw;
+    height: 50.25vw;
 }
 
 @media (max-width: 450px) {
