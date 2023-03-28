@@ -18,18 +18,22 @@ export default function Home() {
           property="og:description"
           content="Soy una red social que te acompaña a todos lados, te ayudo a establecer metas que se conviertan en hábitos para organizar tu vida."
         />
+        <meta name="title" property="og:title" content="Stalak - app"></meta>
         <meta
           name="description"
           content="Soy una red social que te acompaña a todos lados, te ayudo a establecer metas que se conviertan en hábitos para organizar tu vida."
         />
         <meta name="viewport" content="width=device-width initial-scale=1" />
         <link rel="icon" href="/Group_5.png" />
-        <meta property="og:image" itemprop="image" content="/imageog22.png" />
+        <meta property="og:image" itemprop="image" content="/imageog2.png" />
         <meta property="og:image:type" content="image/png"></meta>
         <meta property="og:image:height" content="1000" />
         <meta property="og:image:width" content="1000" />
         <meta property="og:type" content="website" />
         <meta name="og:title" content="Stalak - app" />
+        <meta name="twitter:title" content="Stalak - app" />
+        <meta name="twitter:description" content="Soy una red social que te acompaña a todos lados, te ayudo a establecer metas que se conviertan en hábitos para organizar tu vida." />
+        <meta name="twitter:image" content="/Group_5.png" />
       </Head>
       <NavBar />
       <Header />
