@@ -24,7 +24,7 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width initial-scale=1" />
         <link rel="icon" href="/Group_5.png" />
-        <meta property="og:image" itemprop="image" content="/imageog2.png" />
+        <meta property="og:image" itemprop="image" content="/Group_5.png" />
         <meta property="og:image:type" content="image/png"></meta>
         <meta property="og:image:height" content="300" />
         <meta property="og:image:width" content="300" />
