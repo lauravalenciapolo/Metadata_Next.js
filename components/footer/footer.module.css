@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap');
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../googleFonts/Mulish-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 
 .conteiner{
@@ -25,12 +30,34 @@
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 300;
-    /* Preguntar este tamaño de imagen, estaba en 400 pero no se ve igualito */
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 160%;
     color: #FFFFFF;
-    width: 160px;
+    width: auto;
     height: auto;
+    padding-left: 3vw;
+}
+.myImage{
+    width: 2vw ;
+    height: 2vw;
+}
+
+@media (max-width: 2200px) {
+    .conteiner p{
+        font-size: 14px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .conteiner p{
+        font-size: 14px;
+        padding-left: 0px;
+    } 
+    .myImage{
+        width: 32px ;
+        height: 32px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -38,6 +65,9 @@
         padding: 24px 20px;
         gap: 0px;
         background-color: #002932;
+    }
+    .conteiner p{
+        font-size: 14px;
     }
     .conteinerSocialIcon{
         margin-top: 0px;

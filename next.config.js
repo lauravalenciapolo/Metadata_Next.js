@@ -9,6 +9,15 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: '/:path*',
+        destination: 'https://stalak.app/:path*', // Reemplaza con tu URL personalizada
+        basePath: false,
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig

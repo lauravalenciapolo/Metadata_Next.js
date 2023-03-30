@@ -1,6 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
-
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../googleFonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../../googleFonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 .header {
     display: flex;
     flex-direction: row;
@@ -92,42 +101,41 @@
 .containerButtons {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content:flex-end;
     margin-left: 0px;
 }
 
 .containerButtonsImage {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-left: 0px;
+    /* justify-content: space-between;
+    margin-left: 0px; */
 }
 
 .app {
     border-radius: 20px;
     margin-right: 0.625vw;
+    width:14.23vw;
+    height:4.5vw;
 }
-
-.phone {
+.phone{
     filter: drop-shadow(11px 15px 45px rgba(0, 0, 0, 0.2));
 }
 
 @media (max-width: 1112px) {
-    .containerButtonsImage {
+    .containerButtonsImage{
         display: flex;
         flex-direction: row-reverse;
-        justify-content: flex-start;
+        justify-content:flex-start;
         margin-left: 0px;
         /* Ajustar los botones porque se salen */
     }
-
-    .app {
+    .app{
         border-radius: 10px;
-        width: 14.23vw;
-        height: 4.5vw;
+        width:14.23vw;
+        height:4.5vw;
     }
-
-    .phone {
+    .phone{
         width: 26.02vw;
         height: 45.06vw;
     }
@@ -144,7 +152,6 @@
     .subheader {
         width: 95vw;
         align-items: center;
-        border: 1px solid black;
         margin: auto;
     }
 

@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@font-face {
+    font-family: 'Varela';
+    src: url('../../googleFonts/Varela-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .navbar{
     width: 100%;

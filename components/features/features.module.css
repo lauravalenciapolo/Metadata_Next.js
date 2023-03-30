@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../googleFonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .featureContent {
     width: 100%;
@@ -25,7 +30,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 3vw;
     line-height: 130%;
     text-align: center;
     letter-spacing: -0.02em;
