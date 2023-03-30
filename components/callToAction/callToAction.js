@@ -1,7 +1,23 @@
 import styles from '@/components/callToAction/callToAction.module.css'
 import Image from 'next/image';
+import classnames from 'classnames/bind';
+import { useEffect } from 'react'
+
+const cx = classnames.bind(styles);
 
 export default function CallToAction() {
+
+    useEffect(() => {
+        const element = document.querySelector(`.${cx('conteiner')}`);
+        window.addEventListener('scroll', () => {
+            if (document.documentElement.scrollTop >= 2547) {
+                element.style.display = "flex";
+            } else {
+                element.style.display = "none";;
+            }
+        });
+    }, []);
+
     return (
 
         <div className={styles.conteiner}>

@@ -1,12 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
-.featureContent{
+.featureContent {
     width: 100%;
     height: auto;
     background: #F8F9FF;
     margin-bottom: 5.3vw;
+    animation: opacity 2s linear normal;
+    display: none;
 }
-.featureContent h1{
+
+@keyframes opacity {
+    0% {
+      opacity: 0.0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.featureContent h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -18,14 +33,16 @@
     margin-top: 77px;
     text-align: center;
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-left: 7.34vw;
     margin-top: 10.56vw;
 }
-.cardContent{
+
+.cardContent {
     box-sizing: border-box;
     width: 25vw;
     height: 24vw;
@@ -35,18 +52,21 @@
     border-radius: 25px;
     margin-right: 4.9vw;
 }
-.myImage{
-   width: 25vw;
-   height: 25vw; 
+
+.myImage {
+    width: 25vw;
+    height: 25vw;
 }
-.content2{
+
+.content2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-left: 5.86vw;
     margin-top: 2.4vw;
 }
-.cardContent2{
+
+.cardContent2 {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -66,7 +86,8 @@
     flex-grow: 0;
     margin-right: 2.34vw;
 }
-.cardContent2 p{
+
+.cardContent2 p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -81,48 +102,57 @@
     margin: auto;
     margin-top: 0.375vw;
 }
+
 @media (max-width: 530px) {
-    .featureContent{
+    .featureContent {
         height: auto;
     }
-    .featureContent h1{
+
+    .featureContent h1 {
         margin-top: 60px;
     }
 }
+
 @media (max-width: 450px) {
-    .featureContent{
+    .featureContent {
         height: auto;
     }
-    .featureContent h1{
+
+    .featureContent h1 {
         margin-top: 60px;
         margin-left: 10px;
         margin-right: 10px;
         font-size: 12.06vw;
     }
-    .content{ 
+
+    .content {
         /* No mostrarlo  */
-        display:none
+        display: none
     }
-    .cardContent{
+
+    .cardContent {
         /* No mostrarlo  */
-        display:none
+        display: none
     }
-    .content2{
+
+    .content2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-left: 0;
         margin-top: 0;
     }
-    .cardContent2{
+
+    .cardContent2 {
         padding: 3.55vw 8vw;
         gap: 0;
         width: 84vw;
         height: auto;
         margin: 6.2vw;
     }
-    .cardContent2 p{
-        font-size: 7.47vw; 
+
+    .cardContent2 p {
+        font-size: 7.47vw;
         margin: 0;
         margin-top: 0;
     }

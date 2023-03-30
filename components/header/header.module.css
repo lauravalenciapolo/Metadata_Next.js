@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
-.header{
+.header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,12 +12,27 @@
     left: 0px;
     background: #F8F9FF;
     border-radius: 0px;
+    animation: header 2s linear normal;
 }
-.subheader{
+
+@keyframes header {
+    0% {
+      opacity: 0.0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.subheader {
     width: 51.32vw;
     margin-left: 5.1vw;
 }
-.title{
+
+.title {
     width: 51.32vw;
     height: 20vw;
     font-family: 'Poppins';
@@ -33,7 +48,8 @@
     flex-grow: 0;
     margin-left: 0px;
 }
-.header p{
+
+.header p {
     width: 51.32vw;
     height: 9vw;
     font-family: 'DM Sans';
@@ -48,7 +64,8 @@
     flex-grow: 0;
     margin-left: 0px;
 }
-.header button{
+
+.header button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -71,66 +88,75 @@
     border: none;
     margin-right: 0.625vw;
 }
-.containerButtons{
+
+.containerButtons {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     margin-left: 0px;
 }
-.containerButtonsImage{
+
+.containerButtonsImage {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     margin-left: 0px;
 }
-.app{
+
+.app {
     border-radius: 20px;
     margin-right: 0.625vw;
 }
-.phone{
+
+.phone {
     filter: drop-shadow(11px 15px 45px rgba(0, 0, 0, 0.2));
 }
 
 @media (max-width: 1112px) {
-    .containerButtonsImage{
+    .containerButtonsImage {
         display: flex;
         flex-direction: row-reverse;
-        justify-content:flex-start;
+        justify-content: flex-start;
         margin-left: 0px;
         /* Ajustar los botones porque se salen */
     }
-    .app{
+
+    .app {
         border-radius: 10px;
-        width:14.23vw;
-        height:4.5vw;
+        width: 14.23vw;
+        height: 4.5vw;
     }
-    .phone{
+
+    .phone {
         width: 26.02vw;
         height: 45.06vw;
     }
 }
 
 @media (max-width: 450px) {
-    .header{
+    .header {
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 250vw;
     }
-    .subheader{
+
+    .subheader {
         width: 95vw;
         align-items: center;
         border: 1px solid black;
         margin: auto;
     }
-    .title{
+
+    .title {
         width: 84vw;
         font-size: 10vw;
         margin: 4vw auto;
         height: 40vw;
         text-align: center;
     }
-    .header p{
+
+    .header p {
         width: 84vw;
         height: 9vw;
         font-size: 4.27vw;
@@ -138,32 +164,37 @@
         height: 21vw;
         text-align: center;
     }
-    .header button{
+
+    .header button {
         padding: 7vw 13.3vw;
         height: 4.5vw;
         font-size: 4.27vw;
         line-height: 24px;
         margin: 1.29vw auto 1.28vw;
     }
-    .containerButtons{
+
+    .containerButtons {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
         margin-left: 0px;
     }
-    .containerButtonsImage{
+
+    .containerButtonsImage {
         display: flex;
         flex-direction: row-reverse;
-        justify-content:center;
+        justify-content: center;
         padding: 1vw 2vw;
     }
-    .app{
+
+    .app {
         border-radius: 10px;
-        width:31.47vw;
-        height:9.1vw;
+        width: 31.47vw;
+        height: 9.1vw;
     }
-    .phone{
+
+    .phone {
         width: 79.15vw;
         height: 121.87vw;
     }
-}   
+}
