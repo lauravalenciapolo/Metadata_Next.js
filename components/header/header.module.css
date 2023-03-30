@@ -21,7 +21,7 @@
     left: 0px;
     background: #F8F9FF;
     border-radius: 0px;
-    animation: header 2s linear normal;
+    animation: header 3s linear normal;
 }
 
 @keyframes header {
