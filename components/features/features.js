@@ -10,7 +10,7 @@ export default function Feature() {
   useEffect(() => {
     const element = document.querySelector(`.${cx('featureContent')}`);
     window.addEventListener('scroll', () => {
-      if (document.documentElement.scrollTop >= 140) {
+      if (document.documentElement.scrollTop >= 300) {
         element.style.display = "block";
       } else {
         element.style.display = "none";; 

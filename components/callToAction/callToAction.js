@@ -10,7 +10,7 @@ export default function CallToAction() {
     useEffect(() => {
         const element = document.querySelector(`.${cx('conteiner')}`);
         window.addEventListener('scroll', () => {
-            if (document.documentElement.scrollTop >= 2547) {
+            if (document.documentElement.scrollTop >= 3050) {
                 element.style.display = "flex";
             } else {
                 element.style.display = "none";;

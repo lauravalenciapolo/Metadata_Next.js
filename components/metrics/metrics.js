@@ -10,7 +10,7 @@ export default function Metrics() {
     useEffect(() => {
         const element = document.querySelector(`.${cx('generalDiv')}`);
         window.addEventListener('scroll', () => {
-            if (document.documentElement.scrollTop >= 997) {
+            if (document.documentElement.scrollTop >= 1300) {
                 element.style.display = "block";
             } else {
                 element.style.display = "none";;
