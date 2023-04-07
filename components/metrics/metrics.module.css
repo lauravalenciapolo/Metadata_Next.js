@@ -1,18 +1,22 @@
 .generalDiv {
-    animation: opacity 3s linear normal;
+    position: relative;
+    animation: opacity 1s linear normal;
     display: none;
 }
 
 @keyframes opacity {
     0% {
+        bottom: -100px;
         opacity: 0.0;
     }
 
     50% {
+        bottom: -50px;
         opacity: 0.5;
     }
 
     100% {
+        bottom: 0px;
         opacity: 1;
     }
 }
@@ -72,6 +76,25 @@
     left: 0px;
     background: #F8F9FF;
     border-radius: 0px;
+    animation: leftPos 3s linear normal;
+    position: relative;
+}
+
+@keyframes leftPos {
+    0% {
+        left: -100px;
+        opacity: 0.0;
+    }
+
+    50% {
+        left: -50px;
+        opacity: 0.5;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
 }
 
 .myImage {
@@ -111,6 +134,25 @@
     align-items: center;
     padding: 0px 0px 0px 4.3vw;
     gap: 0vw;
+    animation: rigthPos 3s linear normal;
+    position: relative;
+}
+
+@keyframes rigthPos {
+    0% {
+        right: -100px;
+        opacity: 0.0;
+    }
+
+    50% {
+        right: -50px;
+        opacity: 0.5;
+    }
+
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
 }
 
 .myImage2 {

@@ -8,14 +8,20 @@ const cx = classnames.bind(styles);
 export default function Feature() {
 
   useEffect(() => {
+
     const element = document.querySelector(`.${cx('featureContent')}`);
     window.addEventListener('scroll', () => {
-      if (document.documentElement.scrollTop >= 300) {
-        element.style.display = "block";
-      } else {
-        element.style.display = "none";; 
+
+      const documentHeight = document.documentElement.scrollHeight;
+      const windowHeight = window.innerHeight;
+      const scrollPosition = window.scrollY || window.pageYOffset || document.body.scrollTop + (document.documentElement && document.documentElement.scrollTop || 0);
+
+      if (documentHeight - (scrollPosition + windowHeight) == 0) {
+        element.style.display = "block"
       }
+
     });
+
   }, []);
 
   return (
@@ -43,3 +49,21 @@ export default function Feature() {
     </div>
   )
 }
+
+
+// window.addEventListener('scroll', function() {
+//   // Altura total de la página, incluyendo el área oculta
+//   var documentHeight = document.documentElement.scrollHeight;
+
+//   // Altura visible de la ventana del navegador
+//   var windowHeight = window.innerHeight;
+
+//   // Posición actual del scroll
+//   var scrollPosition = window.scrollY || window.pageYOffset || document.body.scrollTop + (document.documentElement && document.documentElement.scrollTop || 0);
+
+//   // Si el scroll llega al final de la página
+//   if (documentHeight - (scrollPosition + windowHeight) < 1) {
+//     console.log('Has llegado al final de la página!');
+//     // Aquí puedes llamar a una función o realizar alguna acción
+//   }
+// });

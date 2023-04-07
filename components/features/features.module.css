@@ -10,21 +10,27 @@
     height: auto;
     background: #F8F9FF;
     margin-bottom: 5.3vw;
-    animation: opacity 3s linear normal;
+    animation: opacity 1s linear normal;
     display: none;
+    position: relative;
 }
 
 @keyframes opacity {
     0% {
-      opacity: 0.0;
+        bottom: -100px;
+        opacity: 0.0;
     }
+
     50% {
-      opacity: 0.5;
+        bottom: -50px;
+        opacity: 0.5;
     }
+
     100% {
-      opacity: 1;
+        bottom: 0px;
+        opacity: 1;
     }
-  }
+}
 
 .featureContent h1 {
     font-family: 'Poppins';
@@ -45,6 +51,25 @@
     justify-content: flex-start;
     margin-left: 7.34vw;
     margin-top: 10.56vw;
+    animation: leftPos 2s linear normal;
+    position: relative;
+}
+
+@keyframes leftPos {
+    0% {
+        left: -100px;
+        opacity: 0.0;
+    }
+
+    50% {
+        left: -50px;
+        opacity: 0.5;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
 }
 
 .cardContent {
@@ -69,6 +94,25 @@
     justify-content: flex-start;
     margin-left: 5.86vw;
     margin-top: 2.4vw;
+    animation: leftPos2 3s linear normal;
+    position: relative;
+}
+
+@keyframes leftPos2 {
+    0% {
+        left: -100px;
+        opacity: 0.0;
+    }
+
+    50% {
+        left: -50px;
+        opacity: 0.5;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
 }
 
 .cardContent2 {
@@ -106,6 +150,13 @@
     flex-grow: 0;
     margin: auto;
     margin-top: 0.375vw;
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .featureContent {
+        height: auto;
+        display: block;
+    }
 }
 
 @media (max-width: 530px) {

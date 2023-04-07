@@ -10,10 +10,12 @@ export default function Metrics() {
     useEffect(() => {
         const element = document.querySelector(`.${cx('generalDiv')}`);
         window.addEventListener('scroll', () => {
-            if (document.documentElement.scrollTop >= 1300) {
-                element.style.display = "block";
-            } else {
-                element.style.display = "none";;
+            const documentHeight = document.documentElement.scrollHeight;
+            const windowHeight = window.innerHeight;
+            const scrollPosition = window.scrollY || window.pageYOffset || document.body.scrollTop + (document.documentElement && document.documentElement.scrollTop || 0);
+
+            if (documentHeight - (scrollPosition + windowHeight) == 0) {
+                element.style.display = "block"
             }
         });
     }, []);
@@ -35,7 +37,7 @@ export default function Metrics() {
                 </div>
                 <Image src="/Visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage2} />
             </div>
-            <div className={styles.contentInfo} style={{ top: "3174px" }}>
+            <div className={styles.contentInfo} >
                 <Image src="/Visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage} />
                 <div className={styles.parrag}>
                     <p>Conecta con personas en diferentes lugares para planificar y ejecutar actividades en común que te hagan feliz y te ayuden a llevar una vida saludable</p>

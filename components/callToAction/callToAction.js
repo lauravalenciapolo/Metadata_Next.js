@@ -10,10 +10,12 @@ export default function CallToAction() {
     useEffect(() => {
         const element = document.querySelector(`.${cx('conteiner')}`);
         window.addEventListener('scroll', () => {
-            if (document.documentElement.scrollTop >= 3050) {
-                element.style.display = "flex";
-            } else {
-                element.style.display = "none";;
+            const documentHeight = document.documentElement.scrollHeight;
+            const windowHeight = window.innerHeight;
+            const scrollPosition = window.scrollY || window.pageYOffset || document.body.scrollTop + (document.documentElement && document.documentElement.scrollTop || 0);
+
+            if (documentHeight - (scrollPosition + windowHeight) == 0) {
+                element.style.display = "flex"
             }
         });
     }, []);
@@ -21,13 +23,13 @@ export default function CallToAction() {
     return (
 
         <div className={styles.conteiner}>
-        <div className={styles.blueconteiner}>
-            <div>
-                <p>Empecemos a organizar tus hábitos y convertirlos en propósitos de vida</p>
-                <button>Descargar Stalak</button>
+            <div className={styles.blueconteiner}>
+                <div>
+                    <p>Empecemos a organizar tus hábitos y convertirlos en propósitos de vida</p>
+                    <button>Descargar Stalak</button>
+                </div>
             </div>
-        </div>
-        <Image src="/celularLanding.png" alt="Stalak phone" width={433.08} height={650} className={styles.phone}/>
+            <Image src="/celularLanding.png" alt="Stalak phone" width={433.08} height={650} className={styles.phone} />
         </div>
     )
 }
