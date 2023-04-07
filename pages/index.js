@@ -26,7 +26,7 @@ export default function Home() {
           content="Soy una red social que te acompaña a todos lados, te ayudo a establecer metas que se conviertan en hábitos para organizar tu vida."
         />
         {/* <meta property="og:image" itemprop="image" content="https://og-image.xyz/og/Stalak/stalak/og-image.xyz/https/menlo/irritablehero/black/data.png" /> */}
-        <meta property="og:image" itemProp="image" content="Group_1.png"/>
+        <meta property="og:image" itemprop="image" content="Group_1.png"/>
         <meta property="og:image:type" content="image/png"></meta>
         <meta property="og:type" content="website" />
         <meta name="og:title" content="Stalak - app" />
