@@ -152,12 +152,12 @@
     margin-top: 0.375vw;
 }
 
-@media (min-width: 700px) and (max-width: 900px) {
+/* @media (min-width: 700px) and (max-width: 900px) {
     .featureContent {
         height: auto;
         display: block;
     }
-}
+} */
 
 @media (max-width: 530px) {
     .featureContent {
