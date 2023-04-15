@@ -1,11 +1,31 @@
 import styles from '@/components/metrics/metrics.module.css'
 import Image from 'next/image'
 import classnames from 'classnames/bind';
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 const cx = classnames.bind(styles);
 
 export default function Metrics() {
+
+    // const [elementoMostrado, setElementoMostrado] = useState(false);
+
+    // useEffect(() => {
+    //     function handleScroll() {
+    //         const elemento = document.querySelector(`.${cx('generalDiv')}`);
+    //         if (elemento) {
+    //             const rect = elemento.getBoundingClientRect();
+    //             if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+    //                 setElementoMostrado(true);
+    //                 elemento.style.display = 'block'
+    //             }
+    //         }
+    //     }
+    //     window.addEventListener('scroll', handleScroll);
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, [elementoMostrado]);
+
 
     useEffect(() => {
         const element = document.querySelector(`.${cx('generalDiv')}`);
@@ -19,6 +39,7 @@ export default function Metrics() {
             }
         });
     }, []);
+
 
     return (
         <div className={styles.generalDiv}>
@@ -46,4 +67,4 @@ export default function Metrics() {
         </div>
 
     )
-}
+};
