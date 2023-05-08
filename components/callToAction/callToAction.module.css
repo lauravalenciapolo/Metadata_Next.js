@@ -11,19 +11,39 @@
     font-style: normal;
   }
 
-.conteiner{
+.conteiner {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 4.69vw  4.3vw 4.69vw;
+    padding: 4.69vw 4.3vw 4.69vw;
     max-width: 100%;
     height: auto;
     left: 0px;
     background: #F8F9FF;
     border-radius: 0px;
     position: relative;
+    animation: opacity 1s linear normal;
+    display: none;
 }
-.blueconteiner{
+
+@keyframes opacity {
+    0% {
+        bottom: -100px;
+        opacity: 0.0;
+    }
+
+    50% {
+        bottom: -50px;
+        opacity: 0.5;
+    }
+
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+.blueconteiner {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -36,7 +56,8 @@
     order: 0;
     flex-grow: 0;
 }
-.blueconteiner p{
+
+.blueconteiner p {
     max-width: 36.41vw;
     height: auto;
     font-family: 'Poppins';
@@ -45,7 +66,7 @@
     font-size: 2.97vw;
     line-height: 130%;
     letter-spacing: -0.02em;
-    color: #FFFFFF;  
+    color: #FFFFFF;
     flex: none;
     order: 0;
     align-self: stretch;
@@ -55,7 +76,8 @@
     margin-top: 0vw;
     margin-bottom: 0vw;
 }
-.conteiner button{
+
+.conteiner button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -76,11 +98,12 @@
     order: 1;
     flex-grow: 0;
     border: none;
-    margin-left:4.7vw;
+    margin-left: 4.7vw;
     margin-top: 3.15vw;
     margin-bottom: 6.1vw;
 }
-.phone{
+
+.phone {
     position: absolute;
     margin-top: 2vw;
     margin-left: 54.84vw;
@@ -91,29 +114,33 @@
 }
 
 @media (max-width: 450px) {
-    .conteiner{
+    .conteiner {
         padding: 8vw;
     }
-    .blueconteiner{
+
+    .blueconteiner {
         max-width: 100vw;
     }
-    .blueconteiner p{
+
+    .blueconteiner p {
         max-width: 68vw;
         text-align: center;
         font-size: 7.47vw;
         padding: 8vw;
-        margin-right:0vw;
+        margin-right: 0vw;
         margin-top: 0vw;
         margin-bottom: 0vw;
     }
-    .conteiner button{
+
+    .conteiner button {
         padding: 7vw 13.3vw;
         height: 4.5vw;
         font-size: 4.27vw;
         line-height: 24px;
         margin: 2.6vw auto 10.7vw;
     }
-    .phone{
+
+    .phone {
         display: none;
     }
 }

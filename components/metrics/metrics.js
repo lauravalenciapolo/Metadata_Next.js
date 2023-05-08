@@ -5,6 +5,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 
+const cx = classnames.bind(styles);
+
 export default function Metrics() {
 
     useEffect(() => {
@@ -16,6 +18,7 @@ export default function Metrics() {
     return (
         <div>
             <div className={styles.contentTitle} data-aos="zoom-in">
+
                 <h1>Quiero ayudarte a crear hábitos saludables que te impulsen a alcanzar tus objetivos</h1>
             </div>
             <div className={styles.contentInfo} data-aos="fade-right">
@@ -31,6 +34,7 @@ export default function Metrics() {
                 <Image src="/Visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage2} />
             </div>
             <div className={styles.contentInfo} style={{ top: "3174px" }} data-aos="fade-right">
+
                 <Image src="/Visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage} />
                 <div className={styles.parrag}>
                     <p>Conecta con personas en diferentes lugares para planificar y ejecutar actividades en común que te hagan feliz y te ayuden a llevar una vida saludable</p>
@@ -39,4 +43,4 @@ export default function Metrics() {
         </div>
 
     )
-}
+};

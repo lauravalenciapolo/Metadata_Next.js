@@ -19,8 +19,7 @@ export default function CallToAction() {
                 <p>Empecemos a organizar tus hábitos y convertirlos en propósitos de vida</p>
                 <button>Descargar Stalak</button>
             </div>
-        </div>
-        <Image src="/celularLanding.png" alt="Stalak phone" width={433.08} height={650} className={styles.phone}/>
+            <Image src="/celularLanding.png" alt="Stalak phone" width={433.08} height={650} className={styles.phone} />
         </div>
     )
 }
