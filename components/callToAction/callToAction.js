@@ -14,12 +14,13 @@ export default function CallToAction() {
 
     return (
         <div className={styles.conteiner} data-aos="fade-up">
-        <div className={styles.blueconteiner}>
-            <div>
-                <p>Empecemos a organizar tus hábitos y convertirlos en propósitos de vida</p>
-                <button>Descargar Stalak</button>
+            <div className={styles.blueconteiner}>
+                <div>
+                    <p>Empecemos a organizar tus hábitos y convertirlos en propósitos de vida</p>
+                    <button>Descargar Stalak</button>
+                </div>
+                <Image src="/celularLanding.png" alt="Stalak phone" width={433.08} height={650} className={styles.phone} />
             </div>
-            <Image src="/celularLanding.png" alt="Stalak phone" width={433.08} height={650} className={styles.phone} />
         </div>
     )
 }
