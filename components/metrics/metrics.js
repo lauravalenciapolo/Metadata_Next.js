@@ -5,8 +5,6 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 
-const cx = classnames.bind(styles);
-
 export default function Metrics() {
 
     useEffect(() => {
