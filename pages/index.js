@@ -3,9 +3,9 @@ import NavBar from '@/components/navbar/navbar';
 import Header from '@/components/header/header';
 import Feature from '@/components/features/features';
 import Metrics from '@/components/metrics/metrics';
-import CallToAction from '@/components/callToAction/callToAction';
 import Footer from '@/components/footer/footer';
 import Head from 'next/head';
+import CallToAction from '@/components/callToAction/callToAction';
 
 export default function Home() {
 

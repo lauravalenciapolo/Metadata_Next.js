@@ -22,25 +22,6 @@
     background: #F8F9FF;
     border-radius: 0px;
     position: relative;
-    animation: opacity 1s linear normal;
-    display: none;
-}
-
-@keyframes opacity {
-    0% {
-        bottom: -100px;
-        opacity: 0.0;
-    }
-
-    50% {
-        bottom: -50px;
-        opacity: 0.5;
-    }
-
-    100% {
-        bottom: 0px;
-        opacity: 1;
-    }
 }
 
 .blueconteiner {
@@ -105,7 +86,7 @@
 
 .phone {
     position: absolute;
-    margin-top: 2vw;
+    margin-top: -6vw;
     margin-left: 54.84vw;
     align-items: center;
     filter: drop-shadow(11px 15px 45px rgba(0, 0, 0, 0.2));

@@ -31,7 +31,7 @@ export default function Metrics() {
                 </div>
                 <Image src="/Visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage2} />
             </div>
-            <div className={styles.contentInfo} style={{ top: "3174px" }} data-aos="fade-right">
+            <div className={styles.contentInfo} data-aos="fade-right">
 
                 <Image src="/Visuals2.png" alt="Stalak" width={378} height={378} className={styles.myImage} />
                 <div className={styles.parrag}>
