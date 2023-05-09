@@ -10,26 +10,7 @@
     height: auto;
     background: #F8F9FF;
     margin-bottom: 5.3vw;
-    animation: opacity 1s linear normal;
-    display: none;
     position: relative;
-}
-
-@keyframes opacity {
-    0% {
-        bottom: -100px;
-        opacity: 0.0;
-    }
-
-    50% {
-        bottom: -50px;
-        opacity: 0.5;
-    }
-
-    100% {
-        bottom: 0px;
-        opacity: 1;
-    }
 }
 
 .featureContent h1 {
@@ -51,33 +32,13 @@
     justify-content: flex-start;
     margin-left: 7.34vw;
     margin-top: 10.56vw;
-    animation: leftPos 2s linear normal;
     position: relative;
-}
-
-@keyframes leftPos {
-    0% {
-        left: -100px;
-        opacity: 0.0;
-    }
-
-    50% {
-        left: -50px;
-        opacity: 0.5;
-    }
-
-    100% {
-        left: 0px;
-        opacity: 1;
-    }
 }
 
 .cardContent {
     box-sizing: border-box;
     width: 25vw;
     height: 24vw;
-    /* background: #FFFFFF; */
-    /* border: 1px solid #1239FA; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
     margin-right: 4.9vw;
@@ -94,25 +55,7 @@
     justify-content: flex-start;
     margin-left: 5.86vw;
     margin-top: 2.4vw;
-    animation: leftPos2 3s linear normal;
     position: relative;
-}
-
-@keyframes leftPos2 {
-    0% {
-        left: -100px;
-        opacity: 0.0;
-    }
-
-    50% {
-        left: -50px;
-        opacity: 0.5;
-    }
-
-    100% {
-        left: 0px;
-        opacity: 1;
-    }
 }
 
 .cardContent2 {
