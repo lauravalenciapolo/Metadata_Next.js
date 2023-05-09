@@ -15,7 +15,7 @@ export default function Metrics() {
 
     return (
         <div>
-            <div className={styles.contentTitle} data-aos="zoom-in">
+            <div className={styles.contentTitle} data-aos="fade-up">
 
                 <h1>Quiero ayudarte a crear hábitos saludables que te impulsen a alcanzar tus objetivos</h1>
             </div>
