@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import React, { useEffect, useState } from 'react';
 import SlideUp from "../landingEfects/slideUp";
-
+//comentario random
 
 const Metrics = () => {
 
