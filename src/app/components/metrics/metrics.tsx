@@ -54,7 +54,7 @@ const Metrics = () => {
                 width={'100%'}
                 height={'50vh'}
                 sx={{
-                    backgroundImage: 'url(/svg/landingBackgruondImg.svg)',
+                    backgroundImage: 'url(/img/Habits.png)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}
@@ -82,7 +82,7 @@ const Metrics = () => {
                 >
                     <Box mr={{ md: 20 }}>
                         <Image
-                            src="/svg/landingMetrics1.svg"
+                            src="/img/Phone2.png"
                             alt="landingMetrics1"
                             layout='responsive'
                             width={378}
@@ -125,7 +125,7 @@ const Metrics = () => {
                     </Typography>
                     <Box>
                         <Image
-                            src="/svg/landingMetrics2.svg"
+                            src="/img/Phone3.png"
                             alt="landingMetrics2"
                             layout='responsive'
                             width={378}
@@ -147,7 +147,7 @@ const Metrics = () => {
                 >
                     <Box mr={{ md: 20 }}>
                         <Image
-                            src="/svg/landingMetrics3.svg"
+                            src="/img/Phone4.png"
                             alt="landingMetrics3"
                             layout='responsive'
                             width={378}

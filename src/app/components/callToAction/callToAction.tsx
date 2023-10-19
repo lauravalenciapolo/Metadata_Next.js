@@ -40,7 +40,7 @@ const CallToAction = () => {
                     width={'80%'}
                     height={{ xs: '65vh', md: '50vh' }}
                     sx={{
-                        backgroundImage: 'url(/svg/landingCallToActionbackG.svg)',
+                        backgroundImage: 'url(/img/Background.png)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}

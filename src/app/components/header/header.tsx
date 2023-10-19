@@ -60,7 +60,8 @@ const Header = () => {
         </Box>
         <Box ml={{ xs: 0, md: 20 }} >
           <Image
-            src="/svg/landingPhone.svg"
+            src="/img/Phone1.png"
+            // src="/svg/landingPhone.svg"
             alt="landingPhone"
             layout='responsive'
             width={476.38}

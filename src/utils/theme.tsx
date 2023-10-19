@@ -1,4 +1,11 @@
 import { createTheme } from "@mui/material";
+import { Plus_Jakarta_Sans } from "next/font/google";
+
+const josefin_Sans = Plus_Jakarta_Sans({
+  weight: ["300", "400"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+});
 
 export const theme = createTheme({
   palette: {
@@ -16,7 +23,7 @@ export const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: 'Plus Jakarta Sans',
+    fontFamily: josefin_Sans.style.fontFamily,
     // h1 = Titulo principal utilizado en landing page
     h1: {
       fontSize: 55,
